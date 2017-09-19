@@ -38,12 +38,6 @@
     </properties>
 
     <dependencies>
-        <!--<dependency>-->
-            <!--<groupId>org.java-websocket</groupId>-->
-            <!--<artifactId>Java-WebSocket</artifactId>-->
-            <!--<version>LATEST</version>-->
-        <!--</dependency>-->
-
         <dependency>
             <groupId>com.pusher</groupId>
             <artifactId>java-websocket</artifactId>
@@ -77,6 +71,12 @@
         <dependency>
             <groupId>org.json</groupId>
             <artifactId>json</artifactId>
+            <version>LATEST</version>
+        </dependency>
+
+        <dependency>
+            <groupId>junit</groupId>
+            <artifactId>junit</artifactId>
             <version>LATEST</version>
         </dependency>
     </dependencies>
